@@ -27,26 +27,6 @@ else if (b > a)
     Console.WriteLine("Something went wrong");
 }*/
 
-/*extra 1 *****************************************/
-/*string name = "Edgar";
-Console.WriteLine("Labas " + name + "!");*/
-
-
-/*extra 2 ***************************************/
-/*int a = 5;
-int b = 2;
-Console.WriteLine("result : " + (a+b));*/
-
-/*extra 3 ***************************************/
-/*int age = 28;
-Console.WriteLine("your age today is " + age);
-Console.WriteLine("your age after 5 years is " + (age+5));*/
-
-/*extra 4 ***************************************/
-/*double a = 10;
-double b = 12;
-Console.WriteLine("plotas : " + (a*b));*/
-
 /* third ********************************************/
 /*Random rnd = new Random();
 int a = rnd.Next(0, 25);
@@ -241,4 +221,80 @@ secondAverage = secondAverage/ dividedBy;
 Console.WriteLine("divided by " + dividedBy);
 Console.WriteLine("antrasis aritmetinis vidurkis " + secondAverage);*/
 
-// sveiki, cia test
+/*extra 1 *****************************************/
+/*string name = "Edgar";
+Console.WriteLine("Labas " + name + "!");*/
+
+
+/*extra 2 ***************************************/
+/*int a = 5;
+int b = 2;
+Console.WriteLine("result : " + (a+b));*/
+
+/*extra 3 ***************************************/
+/*int age = 28;
+Console.WriteLine("your age today is " + age);
+Console.WriteLine("your age after 5 years is " + (age+5));*/
+
+/*extra 4 ***************************************/
+/*double a = 10;
+double b = 12;
+Console.WriteLine("plotas : " + (a*b));*/
+
+/*extra 5 ***************************************/
+/*int num = int.Parse(Console.ReadLine());
+num = num % 2;
+if (num == 0)
+{
+    Console.WriteLine("Lyginis");
+} else
+{
+    Console.WriteLine("Nelyginis");
+}*/
+
+/*extra 6 ***************************************/
+/*string character = Console.ReadLine();
+if (character == "a" ||  character == "e" || character == "i" || character == "u" || character == "o")
+{
+    Console.WriteLine("balsė");
+} else
+{
+    Console.WriteLine("priebalsė");
+}*/
+
+/*extra 7 ***************************************/
+/*Console.WriteLine("Enter temperature of monday");
+double t1 = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter temperature of tuesday");
+double t2 = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter temperature of wednesday");
+double t3 = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter temperature of thursday");
+double t4 = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter temperature of friday");
+double t5 = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter temperature of saturday");
+double t6 = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter temperature of sunday");
+double t7 = double.Parse(Console.ReadLine());
+
+double result = (t1 + t2 + t3 + t4 + t5 + t6 + t7) / 7;
+Console.WriteLine("On average temperature was " + Math.Round(result, 1) + "C this week");*/
+
+/*extra 8 ***************************************/
+/*Console.WriteLine("Please, enter the price");
+double initialPrice = double.Parse(Console.ReadLine());
+Console.WriteLine("VAT %");
+double vatPercentage = double.Parse(Console.ReadLine());
+double finalPrice = initialPrice + (initialPrice * (vatPercentage/100));
+
+Console.WriteLine("final price with VAT is " + Math.Round(finalPrice, 2));*/
+
+/*extra 9 ***************************************/
+/*Console.WriteLine("KMI");
+Console.WriteLine("Please enter your weight");
+double weight = double.Parse(Console.ReadLine());
+Console.WriteLine("Please enter your height");
+double height = double.Parse(Console.ReadLine());
+double kmi = weight / (Math.Pow(height, 2)/100);
+Console.WriteLine("KMI is " + Math.Round((kmi * 100),1));*/
