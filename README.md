@@ -1,0 +1,1 @@
+kintamieji ir if statement
