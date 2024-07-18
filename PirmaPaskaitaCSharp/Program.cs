@@ -240,3 +240,5 @@ secondAverage = secondAverage/ dividedBy;
 
 Console.WriteLine("divided by " + dividedBy);
 Console.WriteLine("antrasis aritmetinis vidurkis " + secondAverage);*/
+
+// sveiki, cia test
